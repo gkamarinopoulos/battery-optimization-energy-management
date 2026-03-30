@@ -1,10 +1,10 @@
-# Battery Optimization for Energy Cost Minimization
+# 🔋 Battery Optimization for Energy Cost Minimization
 
 ![Battery Optimization](battery_optimization_v1_logo.png)
 
 ---
 
-## Overview
+## ⚡ Overview
 
 This project implements a simple optimization model for energy management in a building with a battery.
 
@@ -15,7 +15,7 @@ The goal is to **minimize total electricity cost** over a 24-hour horizon by opt
 
 ---
 
-## Problem Setup
+## ⚙️ Problem Setup
 
 We consider:
 - a building with fixed (non-flexible) demand
@@ -26,7 +26,7 @@ At each hour, the system must satisfy demand while deciding how to use the batte
 
 ---
 
-## Optimization Model
+## 🧠 Optimization Model
 
 ### Objective
 
@@ -53,33 +53,33 @@ minimize Σ (price[t] × grid[t])
 
 ---
 
-## Results
+## 📊 Results
 
-### Load vs Grid
+### 🔹 Load vs Grid
 
 ![Load vs Grid](plots/load_vs_grid.png)
 
 ---
 
-### Battery Operation
+### 🔹 Battery Operation
 
 ![Battery Operation](plots/battery_operation.png)
 
 ---
 
-### State of Charge (SOC)
+### 🔹 State of Charge (SOC)
 
 ![SOC](plots/soc.png)
 
 ---
 
-### Electricity Price
+### 🔹 Electricity Price
 
 ![Price](plots/price.png)
 
 ---
 
-## Key Insight
+## 💡 Key Insight
 
 The model naturally learns to:
 
@@ -90,7 +90,7 @@ The model naturally learns to:
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - PuLP (Linear Programming)
@@ -98,7 +98,7 @@ The model naturally learns to:
 
 ---
 
-## Future Work
+## 🚀 Future Work
 
 - Add PV generation
 - Add EV / V2G integration
@@ -108,12 +108,12 @@ The model naturally learns to:
 
 ---
 
-## Author
+## 📌 Author
 
 Electrical & Computer Engineering student  
 Focus: Energy Markets, Optimization, Intelligent Energy Systems
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 .
