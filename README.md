@@ -115,15 +115,15 @@ Focus: Energy Markets, Optimization, Intelligent Energy Systems
 
 ## Project Structure
 
-├── battery_optimization_v1.ipynb # Main optimization model (PuLP)
-├── README.md # Project documentation
-├── .gitignore # Git ignore rules
+```bash
+.
+├── battery_optimization_v1.ipynb     # Main optimization model (PuLP)
+├── README.md                        # Project documentation
+├── .gitignore                       # Git ignore rules
 ├── battery_optimization_v1_logo.png # Project cover image
-└── plots/ # Generated plots from results
-├── load_vs_grid.png # Grid vs demand comparison
-├── battery_operation.png # Charge / Discharge behavior
-├── soc.png # Battery state of charge
-└── price.png # Electricity price profile
-
-
-
+└── plots/                           # Generated plots from results
+    ├── load_vs_grid.png             # Grid vs demand comparison
+    ├── battery_operation.png        # Charge / Discharge behavior
+    ├── soc.png                      # Battery state of charge
+    └── price.png                    # Electricity price profile
+```
