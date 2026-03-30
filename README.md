@@ -41,13 +41,13 @@ $$
 ### Constraints
 
 - Energy balance:
-- 
+  
   $$
   grid[t] + discharge[t] = load[t] + charge[t]
   $$
   
 - Battery dynamics:
-- 
+  
   $$
   E[t] = E[t-1] + charge[t] - discharge[t]
   $$
