@@ -32,20 +32,23 @@ At each hour, the system must satisfy demand while deciding how to use the batte
 
 Minimize total cost:
 
+$$
 minimize Σ (price[t] × grid[t])
-
+$$
 
 ---
 
 ### Constraints
 
 - Energy balance:
+  $$
   grid[t] + discharge[t] = load[t] + charge[t]
-
+  $$
   
 - Battery dynamics:
+  $$
   E[t] = E[t-1] + charge[t] - discharge[t]
-
+  $$
   
 - Battery limits:
   - capacity bounds
