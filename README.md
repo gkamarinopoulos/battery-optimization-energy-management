@@ -113,13 +113,17 @@ The model naturally learns to:
 Electrical & Computer Engineering student  
 Focus: Energy Markets, Optimization, Intelligent Energy Systems
 
-battery-optimization-energy-management/
-│
-├── battery_optimization_v1.ipynb
-├── README.md
-├── battery_optimization_v1_logo.png
-└── plots/
-    ├── load_vs_grid.png
-    ├── battery_operation.png
-    ├── soc.png
-    └── price.png
+## Project Structure
+
+├── battery_optimization_v1.ipynb # Main optimization model (PuLP)
+├── README.md # Project documentation
+├── .gitignore # Git ignore rules
+├── battery_optimization_v1_logo.png # Project cover image
+└── plots/ # Generated plots from results
+├── load_vs_grid.png # Grid vs demand comparison
+├── battery_operation.png # Charge / Discharge behavior
+├── soc.png # Battery state of charge
+└── price.png # Electricity price profile
+
+
+
