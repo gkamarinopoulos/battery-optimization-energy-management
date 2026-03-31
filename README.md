@@ -99,15 +99,6 @@ The model naturally learns to:
 
 ---
 
-## 🚀 Future Work
-
-- Add PV generation
-- Add EV / V2G integration
-- Include battery efficiency
-- Add real market data (e.g. DAM prices)
-- Extend to multi-day optimization
-
----
 
 ## 📌 Author
 
